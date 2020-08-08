@@ -1,7 +1,5 @@
 header {
     text-align: center;
-    background-size: cover;
-    overflow: hidden;
     padding-top: 80px;
   }
   header {
@@ -13,9 +11,4 @@ header {
     height: 150px;
     border-radius: 50%;
     border: 3px solid #f9f9f9;
-    transition: all .5s;
   }
-  header .profile-image:hover {
-    transform: scale(1.2) rotate(5deg);
-  }
-  
