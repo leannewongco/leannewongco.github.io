@@ -12,3 +12,6 @@ header {
     border-radius: 50%;
     border: 3px solid #f9f9f9;
   }
+  header .card {
+    border: 3px solid #c2ebe6;
+}
