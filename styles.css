@@ -21,5 +21,11 @@ header {
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
     }
+   .card h2{
+     color:#ffc205;
+   } 
+  .card p {
+    color:#fff;
+  }
     
-}
+  }
