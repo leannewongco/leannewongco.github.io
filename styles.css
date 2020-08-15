@@ -5,8 +5,10 @@
 
 header {
   text-align: center;
-  padding-top: 80px;
+  padding-bottom: 80px;
   line-height: 1.2;
+  background: url('img/winter-finland.JPG') no-repeat top center;
+  background-size: cover;
 }
 
 header .profile-image {
