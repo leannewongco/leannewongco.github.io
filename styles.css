@@ -1,7 +1,3 @@
-:root {
-  --profile-image-size: 150px;
-  font-family: "Quicksand";
-}
 body {
   margin: 0; 
 }
@@ -20,8 +16,8 @@ header {
 
 header .profile-image {
   margin-top: 50px;
-  width: var(--profile-image-size);
-  height: var(--profile-image-size);
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 3px solid #f9f9f9;
 }
