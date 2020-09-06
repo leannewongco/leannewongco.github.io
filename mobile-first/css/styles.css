@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    text-align: center;
+    font-family: "Quicksand";
 }
 
 html {
-    background-color: #f4f4f4;
+    background-color:#ebebeb;
 }
 
 html, body {
@@ -13,15 +15,61 @@ html, body {
 h1, body {
     margin: 0;
 }
-.container {
-    background-color: white;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin: 0 auto;
-    height:100%;
-    width: 60%;
 
+.container {
+    background-color: #f9f9f9;
+    padding-top: 1em;
+    margin: 0 auto;
+    height: 100%;
+    width: 60%; 
+    min-width: 360px;
+}
+
+.top-container-contents {
+    padding: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px;
+    background-color: White;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #444;
+}
+
+.profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #ebebeb;
+    padding: 10px 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.portfolio-image {
+    width:50%;
+    padding-bottom: 3em;
+}
+
+main {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-container {
+    padding:20px;
 }
 
 @media (min-width: 768px) {
@@ -29,7 +77,6 @@ h1, body {
         width: 60%;
         max-width: 1000;
     }
-    
 }
 
 @media (min-width: 1024px) {
@@ -40,16 +87,15 @@ h1, body {
     .h1 {
         float: left;
     }
-
     .main-nav {
         float: right;
     }
-    .main-nav li{
+    .main-nav li {
         display: inline-block;
-        margin-left:15px;
+        margin-left: 15px;
     }
 }
 
 .upper {
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
