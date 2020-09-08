@@ -72,6 +72,22 @@ main {
     padding:20px;
 }
 
+hr {
+    margin: 20px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 @media (min-width: 768px) {
     .container {
         width: 60%;
