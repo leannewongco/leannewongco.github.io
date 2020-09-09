@@ -16,8 +16,17 @@ h1, body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #9c26b0;
+}
+
 .container {
-    background-color: #f9f9f9;
     padding-top: 1em;
     margin: 0 auto;
     height: 100%;
@@ -64,12 +73,15 @@ ul li a {
 
 main {
     background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
-.main-container {
-    padding:20px;
+.section {
+    padding: 50px 30px;
+
+}
+
+.contact {
+    background-color: #f6f6f6;
 }
 
 hr {

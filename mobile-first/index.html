@@ -10,14 +10,14 @@
 
 <body>
   <div class="container">
-    <div class="top-container-contents">
+    <div class="contact top-container-contents">
       <header>
-        <h1>Leanne Wong</h1>
+        <h1 id="home">Leanne Wong</h1>
         <div class="main-nav">
           <ul class="nav upper">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#home-top">Contact</a></li>
           </ul>
         </div>
         <img src="img/leannewong-profile.png" class="profile-image" alt="leannewong-profile">
@@ -26,9 +26,9 @@
           excited to learn more programming languages such as Javascript.</p>
       </header>
     </div>
-    <main>
+    <main class="section">
       <div class="first-main main-container">
-        <h2>PORTFOLIO</h2>
+        <h2 id="portfolio">PORTFOLIO</h2>
         <img src="img/gsc blog post.png" class="portfolio-image" alt="google-search-console-guide">
         <h3><a href="https://www.leannewong.co/set-up-google-search-console/">Google Search Console</a></h3>
         <p>Learn how to set up Google Search Console for your blog in this step-by-step tutorial.</p>
@@ -58,11 +58,16 @@
         <h3><a href="https://www.leannewong.co/pinterest-set-up-rich-pins/">Pinterest Rich Pins</a></h3>
         <p>How to Set Up Rich Pins on Pinterest in Under 5 Minutes.</p>
       </div>
-      <hr>
-      <div class="footer-columns">
-        <div class="column">Leanne Wong</div>
-        <div class="column">BACK TO TOP</div>
-      </div>
     </main>
+      <div class="contact section">
+        <h2 id="contact">CONTACT</h2>
+        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p>Phone: +65 555-1234</p>
+        <p>Email: info@leannewong.co</p>
+        <hr>
+        <div class="column">Leanne Wong</div>
+        <div id="home-top" class="column"><a href="#home">BACK TO TOP</a></div>
+      </div>
+    </div>
   </div>
 </body>
