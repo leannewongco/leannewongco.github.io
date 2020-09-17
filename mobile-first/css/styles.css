@@ -29,7 +29,6 @@ a:hover {
 .container {
   padding-top: 1em;
   margin: 0 auto;
-  height: 100%;
   width: 60%;
   min-width: 360px;
 }
@@ -110,6 +109,36 @@ footer {
   justify-content: space-around;
 }
 
+.flex {
+  display: flex;
+}
+
+.m-2 {
+  margin: 2em;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1em;
+}
+
 @media (max-width:767px) {
   .xs-hidden {
     display: none;
@@ -130,16 +159,6 @@ footer {
     padding: 10px;
     background-color: #f6f6f6;
   }
-  .flex {
-    display: flex;
-    flex-direction: row;
-  }
-  .flex p {
-    order: -1;
-    width: 80%;
-    text-align: left;
-    margin: 1em;
-  }
   div.profile-image {
     width: 40vw;
     height: 20vw;
@@ -149,7 +168,6 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  
   main>div {
     display: flex;
     flex-direction: row;
@@ -158,6 +176,16 @@ footer {
   .main-container {
     width: calc(100%/2 - 2*1em);
     margin: 1em;
+  }
+  .md-flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  header .flex-column p {
+    order: -1;
+    width: 80%;
+    text-align: left;
+    max-width: 60ch;
   }
 }
 
@@ -169,6 +197,10 @@ footer {
   .container {
     width: 80%;
     max-width: 1000;
+  }
+  .lg-flex-row {
+    display: flex;
+    flex-direction: row;
   }
   h1 {
     float: left;
